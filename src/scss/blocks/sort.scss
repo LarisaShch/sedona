@@ -1,0 +1,58 @@
+.sort {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    margin-left: 70px;
+    font-size: 12px;
+    padding-top: 7px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 9px;
+}
+
+.sort__title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sort ul {
+    padding-left: 42px;
+    display: flex;
+    padding-top: 17px;
+}
+
+.sort__filter {
+    margin-right: 41px;
+}
+
+.sort a {
+    margin-right: 33px;
+    color: rgba(0,0,0,.3);
+    border-bottom: 1px dotted;
+}
+
+.sort__arrow button {
+    border: 0;
+    background-color: white;
+}
+
+.sort__arrow {
+    margin-left: 462px;
+    margin-top: 28px;
+}
+
+.sort__item a:hover {
+    color: #81b3d2;
+}
+
+.sort__item a:focus {
+    color: black;
+}
+
+.sort__arrow button:hover {
+    color:#81b3d2;
+}
+
+.sort__arrow button:active {
+    color:#81b3d2;
+}
+

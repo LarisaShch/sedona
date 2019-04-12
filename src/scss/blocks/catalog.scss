@@ -1,0 +1,107 @@
+.catalog__hotels {
+    padding-top: 29px;
+    display: flex;
+    padding-left: 70px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 19px;
+}
+
+.catalog__info {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.catalog__title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.catalog__text {
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.catalog__price {
+    margin-left: 35px;
+}
+
+.catalog__btn-info,
+.catalog__btn__booking {
+    height: 27px;
+    color: white;
+    line-height: 21px;
+    font-weight: 700;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog__btn__booking {
+    background: #766357;
+    width: 141px;
+}
+
+.catalog__btn-info {
+    background: #81b3d2;
+    width: 110px;
+    margin-right: 7px;
+}
+
+.catalog__link {
+    margin-top: 3px;
+    display: flex;
+}
+
+.catalog__rating {
+    margin-left: 522px;
+}
+
+.catalog__star {
+    margin-left: 23px;
+    margin-bottom: 43px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: unset;
+}
+
+.catalog__rating-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    width: 110px;
+    height: 23px;
+    padding-top: 5px;
+}
+
+.catalog__btn-info:hover {
+    background: #669ec0;
+}
+
+.catalog__btn-info:focus {
+    background: #5496bd;
+    color: #88b6d1;
+}
+
+.catalog__btn__booking:hover {
+    background: #604e43;
+}
+
+.catalog__btn__booking:focus {
+    background: #503e33;
+    color: #857871;
+}
+
+.catalog__title:hover {
+    color: #81b3d2;
+}
+
+.catalog__title:focus {
+    color: #b2b2b2;
+}

@@ -1,0 +1,48 @@
+.navigation {
+    position: relative;
+    height: 56px;
+}
+
+.navigation__list {
+    display: inline-block;
+    padding-left: 71px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.navigation__item {
+    display: inline-block;
+    margin-top: 1px;
+    width: 240px;
+}
+
+.navigation__logo {
+    position: absolute;
+    left: 44%;
+}
+
+.navigation__item-part {
+    margin-left: 77px;
+    text-align: right;
+}
+
+.navigation__item-hotel {
+    text-align: right;
+}
+
+.navigation__link:hover {
+    color: #81b3d2;
+}
+
+.navigation__link:focus {
+    color: #bcbcbc;
+}
+
+.navigation__link:active {
+    color: #766357;
+}
