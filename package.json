@@ -15,7 +15,8 @@
   "dependencies": {
     "del": "^3.0.0",
     "gulp-plumber": "^1.2.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "lodash.uniqby": "^4.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
